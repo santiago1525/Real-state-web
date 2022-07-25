@@ -175,10 +175,10 @@ const Hero = ({ slides }) => {
                                      <HeroSlider>
                                         <HeroImage src={slide.image} alt={slide.alt}/>
                                             <HeroContent>
-                                                <h1>{slide.title}</h1>
-                                                <p>{slide.price}</p>
+                                                <h1 data-aos="fade-down"  data-aos-duration="1500">{slide.title}</h1>
+                                                <p data-aos="fade-down"  data-aos-duration="1500">{slide.price}</p>
                                                 <Button to={slide.path} primary='true'
-                                                css={` max-width: 160px; `} >
+                                                css={` max-width: 160px; `} data-aos="zoom-out" data-aos-duration="1500">
                                                     {slide.label} 
                                                     <Arrow />
                                                 </Button>

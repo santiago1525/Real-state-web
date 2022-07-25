@@ -1,27 +1,26 @@
-import React, {useState} from 'react'
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
+import React from 'react'
 import GlobalStyle from './globalStyles';
-import { SliderData } from './data/SliderData'
-import Dropdown from './components/Dropdown';
-import InfoSection from './components/InfoSection';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+import { Route, Routes } from 'react-router-dom';
+/* Pages */
+import Home from './pages/Home';
+import Rentals from './pages/Rentals';
 
 
 function App() {
 
-  const  [isOpen, setIsOpen] = useState(false);
+  Aos.init();
 
-  const toggle = () => {
-    setIsOpen(!isOpen)
-  }
+  
 
   return (
     <>
-      <GlobalStyle />
-      <Navbar toggle={toggle} />
-      <Dropdown isOpen={isOpen} toggle={toggle} />
-      <Hero slides={SliderData}/>
-      <InfoSection />
+    <GlobalStyle />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/alquileres" element={<Rentals />} />
+    </Routes>
     </>
   );
 }

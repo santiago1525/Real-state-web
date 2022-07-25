@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     html {
-        overflow-x: hidden; 
+        overflow-x: hidden;
     }
 
 `;
