@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+You can to view this proyect here: https://real-state-wheat.vercel.app/
+
 
 ## Available Scripts
 
