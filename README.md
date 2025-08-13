@@ -1,71 +1,38 @@
-# Getting Started with Create React App
+<!-- README.md -->
 
-You can to view this proyect here: https://real-state-wheat.vercel.app/
+<div align="center">
 
+#  Real Estate Web App – Frontend (React)
 
-## Available Scripts
+[![Visitar sitio web](https://img.shields.io/badge/Visitar%20sitio%20online-000?style=for-the-badge&logo=vercel&logoColor=white)](https://real-state-wheat.vercel.app/)
 
-In the project directory, you can run:
+Sitio web frontend para un proyecto inmobiliario desarrollado con **React**, desplegado en Vercel, que permite explorar propiedades y navegar con fluidez.
 
-### `npm start`
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 1. Descripción del proyecto
 
-### `npm test`
+Esta aplicación es la interfaz visual de una plataforma inmobiliaria, creada en **React** (probablemente generada usando Create React App) :contentReference[oaicite:0]{index=0}.  
+Permite navegar propiedades, ver detalles, y ofrece una UX limpia y atractiva, todo sin backend (solo frontend).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ **App online disponible aquí:** [real-state-wheat.vercel.app](https://real-state-wheat.vercel.app/)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2. Principales funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Listado visual de propiedades (imágenes, precios, ubicaciones).
+- Navegación por secciones como *Home*, *Offers*, *Sign in*, etc. :contentReference[oaicite:1]{index=1}.
+- Interfaz responsiva y moderna, optimizada para móviles y escritorio.
+- Navegación suave sin recargas completas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 3. Tecnologías usadas
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React** (Create React App) :contentReference[oaicite:2]{index=2}
+- **CSS Modules**, **Sass**, **Tailwind** o estilos personalizados (dependiendo de cómo lo hayas implementado)
+- **Vercel**: despliegue continuo desde Git → producción
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
